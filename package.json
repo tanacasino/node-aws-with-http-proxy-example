@@ -1,0 +1,29 @@
+{
+  "name": "node-aws-with-proxy",
+  "version": "0.0.0",
+  "description": "Example using AWS SDK for JavaScript with http proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanacasino/node-aws-with-http-proxy-example"
+  },
+  "keywords": [
+    "node.js",
+    "aws",
+    "http-proxy",
+    "proxy"
+  ],
+  "author": "tanacasino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanacasino/node-aws-with-http-proxy-example/issues"
+  },
+  "homepage": "https://github.com/tanacasino/node-aws-with-http-proxy-example",
+  "dependencies": {
+    "aws-sdk": "^2.0.17",
+    "tunnel": "0.0.3"
+  }
+}
